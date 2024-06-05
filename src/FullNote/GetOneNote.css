@@ -1,0 +1,24 @@
+.div1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+
+.tableX {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 45%; /* Adjust this value as needed */
+}
+
+.column input {
+    border: 1px solid #000; /* Add a border to the inputs */
+    margin-bottom: 2px; /* Reduce the space between inputs */
+    padding: 5px; /* Add some padding inside the inputs */
+}

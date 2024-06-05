@@ -1,0 +1,55 @@
+nav {
+    background-color: #062508;
+    padding: 10px;
+    position: fixed;
+    margin-top: -80px;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    color: #fff; 
+    text-decoration: none;
+    padding-bottom: 3px;
+    font-size: 105%;
+}
+
+/* when hovering on a Link */
+a:hover {
+    color: #858585;
+}
+
+.calendarNav {
+    float: none;
+    margin-right: none;
+}
+
+.loginNav {
+    float: right;
+    margin-right: 2.9%;
+}
+
+.navLabel {
+    color: #fff;
+    text-decoration: none;  
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.activeLink {
+    color: #333; 
+}

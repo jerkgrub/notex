@@ -1,0 +1,89 @@
+.mynote{
+  color: rgb(46, 46, 46);
+  margin-left: 5%;
+}
+
+.activeLink {
+  color: #333; 
+}
+
+.notepreviewtitle{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.1;
+}
+
+.note-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.note-box {
+  width: 230px; /* Set a fixed width for each note box */
+  height: 200px;
+  margin: 10px; /* Add margin for spacing */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none; /* Remove underlines for links */
+  color: #333; /* Set text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.note-box:hover {
+  background-color: #f0f0f0; 
+}
+
+.note-box p {
+  margin: 0; 
+}
+
+.prioritypreview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 12px; 
+  color: #666; 
+  font-weight: lighter;
+  margin-left: 4px;
+}
+
+.note-box:hover 
+.prioritypreview {
+  color: #a6a6a6;
+}
+
+.datepreview {
+  /* position: absolute; 
+  bottom: 15px;
+  right: 15px;  */
+  margin-left: 0.5px;
+  margin-top: -0.5px;
+  font-size: 79%;
+  font-weight: lighter;
+  color: rgb(30, 30, 30);
+}
+
+.note-box:hover 
+.datepreview {
+  color: #a6a6a6;
+}
+
+.brainpreview{
+  margin-top: 5%;
+  font-size: 95%;
+  color: #949090;
+}
+
+.note-box:hover 
+.brainpreview {
+  color: #b9b9b9;
+}
